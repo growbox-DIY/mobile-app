@@ -13,6 +13,37 @@ the controller's HTTP API over the local WiFi.
 
 ![More GrowBox app screens](screenshots/screens-more.png)
 
+## Install on your iPhone with Claude (easiest)
+
+No coding needed: Claude builds the app on your Mac, installs it on your
+iPhone over a cable and explains every step.
+
+You need:
+
+- a Mac with [Xcode](https://apps.apple.com/app/xcode/id497799835)
+  (free; Claude helps you set it up),
+- an iPhone, its cable and a free Apple ID,
+- the [Claude desktop app](https://claude.ai/download) with Claude Code
+  (the **Code** tab, included in paid Claude plans),
+- the controller's API token, and its address if you know it - ask the
+  person who set up the GrowBox controller.
+
+1. Connect the iPhone to the Mac and unlock it.
+2. Open the Claude app, go to the **Code** tab and choose an empty folder.
+3. Paste this and press Enter:
+
+   ```
+   Install the GrowBox app from https://github.com/growbox-DIY/mobile-app on my iPhone. Follow the CLAUDE.md in that repo.
+   ```
+
+4. Answer Claude's questions and do what it asks on the Mac and the
+   iPhone (sign in to Xcode, turn on Developer Mode, trust the app).
+
+With a free Apple ID the app works for 7 days. After that, connect the
+iPhone and ask Claude in the same folder to reinstall the GrowBox app -
+your data stays on the phone. The step-by-step guide Claude follows is in
+[CLAUDE.md](CLAUDE.md).
+
 ## Features
 
 - **Live climate:** temperature and humidity, refreshed every 5 s.
