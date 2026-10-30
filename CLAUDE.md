@@ -44,7 +44,7 @@ free Apple ID.
    Security → Developer Mode → On; the iPhone restarts (the option appears
    after the phone has been connected to Xcode).
 5. **Controller.** Ask for the API token (the person who set up the
-   controller has it: `API_TOKEN` in the firmware's `App/api_token.py`)
+   controller has it: `API_TOKEN` in the firmware's `src/api_token.py`)
    and the address. If they don't know the address, try
    `http://esp32.local`. Test it:
    `curl -s -m 5 -H "Authorization: Bearer <token>" <url>/api/config`.
